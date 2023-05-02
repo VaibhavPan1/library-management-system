@@ -36,8 +36,8 @@ def addBook():
 
 
 
-    mypass = "8299" #enter the datbase password 
-    mydatabase = "db"
+    mypass = "" #enter the datbase password 
+    mydatabase = "db" #enter the database name here
 
     con = pymysql.connect(host="localhost", user="root", password=mypass, database=mydatabase)
     cur = con.cursor()

@@ -11,7 +11,7 @@ from returnBook import *
 from About import *
 
 
-mypass ="8299" #enter your database password
+mypass ="" #enter your database password
 mydatabase = "db" #database name
 
 con = pymysql.connect(host="localhost",user="root",password=mypass ,database=mydatabase)

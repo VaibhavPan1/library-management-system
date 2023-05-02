@@ -5,8 +5,8 @@ from tkinter import ttk
 import pymysql
 
  #enter the database password
-mypass = "8299"
-mydatabase="db"
+mypass = ""
+mydatabase="db" #enter the database name here
 
 con = pymysql.connect(host="localhost",user="root", password=mypass,database=mydatabase)
 cur = con.cursor()

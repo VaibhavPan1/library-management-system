@@ -15,7 +15,7 @@ def about():
     label1 = Label(frame, text = "Library Management System", font="Cambria 15")
     label1.place(relx=0.09, rely=0.09,relwidth=0.8,relheight=0.1)
 
-    label2 = Label(frame, text="This is a simple Library Management System developed by Vaibhav Kumar Pandey and Suraj Shukla\nWe are the students of UCER pursuing BTech in the field of Computer Science.\nThis project is written is Python Language and utilizes database connectivity using MySQL.\n All the essential features that are necessary in a LMS are added in this project. ")
+    label2 = Label(frame, text="This is a simple Library Management System developed by Vaibhav Kumar Pandey. A students of United College Of Engineering And Research, Naini, Prayagraj, pursuing BTech in the field of Computer Science.\nThis project is written is Python Language and utilizes database connectivity using MySQL.\n All the essential features that are necessary in a LMS are added in this project. ")
     label2.place(relx=0.09, rely=0.2)
 
     root.mainloop()
